@@ -41,7 +41,7 @@ Built with **Node.js + Express.js + MongoDB + EJS (HTML, CSS, JavaScript)**.
 ![Post Created Successfully](Screenshots/Post%20Created%20Successfully.png)  
 ![User Registration](Screenshots/User%20Registration%20Success.png)  
 ![User Test Data](Screenshots/User%20Test%20Data.png)  
-![Users Follow Success](Screenshots/Users%20Follow%20Success.png)  
+![Users Follow Success](Screenshots/Users%20Follow%20Success.png)
 
 ---
 
