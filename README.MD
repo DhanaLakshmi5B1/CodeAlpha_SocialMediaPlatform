@@ -36,12 +36,12 @@ Built with **Node.js + Express.js + MongoDB + EJS (HTML, CSS, JavaScript)**.
 
 ## 📸 Project Screenshots
 
-![Server Running](Screenshots/ServerRunning.png)  
-![Like and Comment Demo](Screenshots/LikeandCommentDemo.png)  
-![Post Created Successfully](Screenshots/PostCreatedSuccessfully.png)  
-![User Registration](Screenshots/UserRegistrationSuccess.png)  
-![User Test Data](Screenshots/UserTestData.png)  
-![Users Follow Success](Screenshots/UserFollowSuccess.png)  
+![Server Running](Screenshots/Server%20Running.png)  
+![Like and Comment Demo](Screenshots/Like%20and%20Comment%20Demo.png)  
+![Post Created Successfully](Screenshots/Post%20Created%20Successfully.png)  
+![User Registration](Screenshots/User%20Registration%20Success.png)  
+![User Test Data](Screenshots/User%20Test%20Data.png)  
+![Users Follow Success](Screenshots/Users%20Follow%20Success.png)  
 
 ---
 
