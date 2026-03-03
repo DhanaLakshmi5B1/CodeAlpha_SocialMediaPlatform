@@ -36,22 +36,22 @@ Built with **Node.js + Express.js + MongoDB + EJS (HTML, CSS, JavaScript)**.
 
 ## 📸 Project Screenshots
 
-1. CMD - Server Running  
-![Server Running](Screenshots/ServerRunning.png)
+### 1. CMD - Server Running
+![CMD - Server Running](Screenshots/ServerRunning.png)
 
-2. Like and Comment Demo  
+### 2. Like and Comment Demo
 ![Like and Comment Demo](Screenshots/LikeAndCommentDemo.png)
 
-3. Post Created Successfully  
+### 3. Post Created Successfully
 ![Post Created Successfully](Screenshots/PostCreatedSuccessfully.png)
 
-4. User Registration  
+### 4. User Registration
 ![User Registration](Screenshots/UserRegistrationSuccess.png)
 
-5. Test Users Data  
+### 5. Test Users Data
 ![Test Users Data](Screenshots/UserTestData.png)
 
-6. Users Follow Success  
+### 6. Users Follow Success
 ![Users Follow Success](Screenshots/UserFollowSuccess.png)
 
 ---
