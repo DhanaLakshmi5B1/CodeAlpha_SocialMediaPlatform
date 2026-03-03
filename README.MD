@@ -36,23 +36,25 @@ Built with **Node.js + Express.js + MongoDB + EJS (HTML, CSS, JavaScript)**.
 
 ## 📸 Project Screenshots
 
-**1. CMD - Server Running**  
-C:\Users\Lenovo PC\Desktop\MiniSocialAppExample\Screenshots\Server Running.png 
+1. CMD - Server Running  
+![Server Running](Screenshots/ServerRunning.png)
 
-**2. Like and comment Demo**  
-C:\Users\Lenovo PC\Desktop\MiniSocialAppExample\Screenshots\Like and comment demo.png 
+2. Like and Comment Demo  
+![Like and Comment Demo](Screenshots/LikeAndCommentDemo.png)
 
-**3. Post craeted successfully**  
-C:\Users\Lenovo PC\Desktop\MiniSocialAppExample\Screenshots\Post Created Successfully.png 
+3. Post Created Successfully  
+![Post Created Successfully](Screenshots/PostCreatedSuccessfully.png)
 
-**4. User Registaration **  
-C:\Users\Lenovo PC\Desktop\MiniSocialAppExample\Screenshots\User Registration Success.png
+4. User Registration  
+![User Registration](Screenshots/UserRegistrationSuccess.png)
 
-**5. Test Users Data**
-C:\Users\Lenovo PC\Desktop\MiniSocialAppExample\Screenshots\User Test Data.png
+5. Test Users Data  
+![Test Users Data](Screenshots/UserTestData.png)
 
-**6. Users Follow Success**
-C:\Users\Lenovo PC\Desktop\MiniSocialAppExample\Screenshots\User Follow Success.png
+6. Users Follow Success  
+![Users Follow Success](Screenshots/UserFollowSuccess.png)
+
+---
 
 Conclusion:
 ✅ This project demonstrates a complete end-to-end Full Stack Social Media Platform with Frontend & Backend integration, ready for real-world usage and further enhancements.
