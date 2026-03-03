@@ -39,8 +39,8 @@ Built with **Node.js + Express.js + MongoDB + EJS (HTML, CSS, JavaScript)**.
 ### Server Running
 ![Server Running](Screenshots/Server%20Running.png)
 
-### Like and Comment Demo
-![Like and Comment Demo](Screenshots/Like%20and%20Comment%20Demo.png)
+### Like and comment demo
+![Like and comment demo](Screenshots/Like%20and%20comment%20demo.png)
 
 ### Post Created Successfully
 ![Post Created Successfully](Screenshots/Post%20Created%20Successfully.png)
