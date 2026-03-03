@@ -36,14 +36,15 @@ Built with **Node.js + Express.js + MongoDB + EJS (HTML, CSS, JavaScript)**.
 
 ## 📸 Project Screenshots
 
-![Server Running](Screenshots/ServerRunning.png)
-![Like and Comment Demo](Screenshots/Likeandcommentdemo.png)
-![Post Created Successfully](Screenshots/PostCreatedSuccessfully.png)
-![User Registration](Screenshots/UserRegistrationSuccess.png)
-![User Test Data](Screenshots/UserTestData.png)
-![Users Follow Success](Screenshots/UserFollowSuccess.png)---
+![Server Running](Screenshots/ServerRunning.png)  
+![Like and Comment Demo](Screenshots/LikeandCommentDemo.png)  
+![Post Created Successfully](Screenshots/PostCreatedSuccessfully.png)  
+![User Registration](Screenshots/UserRegistrationSuccess.png)  
+![User Test Data](Screenshots/UserTestData.png)  
+![Users Follow Success](Screenshots/UserFollowSuccess.png)  
 
-Conclusion:
-✅ This project demonstrates a complete end-to-end Full Stack Social Media Platform with Frontend & Backend integration, ready for real-world usage and further enhancements.
+---
 
+## ✅ Conclusion
 
+This project demonstrates a complete end-to-end Full Stack Social Media Platform with Frontend & Backend integration, ready for real-world usage and further enhancements.
