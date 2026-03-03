@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mini Social App</title>
+  <style>
+    body {
+      font-family: Arial;
+      background: #f4f4f4;
+      padding: 20px;
+    }
+
+    .post {
+      background: white;
+      padding: 15px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+    }
+
+    button {
+      margin-top: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Mini Social App</h1>
+
+<input type="text" id="postInput" placeholder="Write something">
+<button onclick="createPost()">Post</button>
+
+<hr>
+
+<div id="posts"></div>
+
+<script>
+function loadPosts() {
+  fetch("/posts")
+    .then(res => res.json())
+    .then(data => {
+      const postsDiv = document.getElementById("posts");
+      postsDiv.innerHTML = "";
+
+      data.forEach(post => {
+        postsDiv.innerHTML += `
+          <div class="post">
+            <p>${post.text}</p>
+            <p>Likes: ${post.likes}</p>
+            <button onclick="likePost(${post.id})">Like</button>
+
+            <br><br>
+
+            <input type="text" id="comment-${post.id}" placeholder="Write comment">
+            <button onclick="addComment(${post.id})">Comment</button>
+
+            <div>
+              ${post.comments.map(c => `<p>• ${c}</p>`).join("")}
+            </div>
+          </div>
+        `;
+      });
+    });
+}
+
+function createPost() {
+  const text = document.getElementById("postInput").value;
+
+  fetch("/posts", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ text })
+  })
+  .then(() => {
+    document.getElementById("postInput").value = "";
+    loadPosts();
+  });
+}
+
+function likePost(id) {
+  fetch("/posts/" + id + "/like", {
+    method: "POST"
+  })
+  .then(() => loadPosts());
+}
+
+function addComment(id) {
+  const comment = document.getElementById("comment-" + id).value;
+
+  fetch("/posts/" + id + "/comment", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ comment })
+  })
+  .then(() => loadPosts());
+}
+
+loadPosts();
+</script>
+
+</body>
+</html>
