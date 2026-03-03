@@ -51,8 +51,8 @@ Built with **Node.js + Express.js + MongoDB + EJS (HTML, CSS, JavaScript)**.
 ### User Test Data
 ![User Test Data](Screenshots/User%20Test%20Data.png)
 
-### Users Follow Success
-![Users Follow Success](Screenshots/Users%20Follow%20Success.png)
+### User Follow Success
+![User Follow Success](Screenshots/User%20Follow%20Success.png)
 
 ---
 
